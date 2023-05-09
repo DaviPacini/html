@@ -1,9 +1,7 @@
 header {
-    position: static;
+    position: fixed;
     background-color: rgb(153, 0, 255);
     width: 100%;
-    margin-left: -10px;
-    margin-top: -20px;
     height: 100px;
 }
 
@@ -41,11 +39,54 @@ nav a {
 }
 
 main{
-    background-color: rgb(196, 108, 255);
+    display: flex;
+    background-color: rgba(196, 108, 255, 0.63);
     width: 100%;
-    
-}
-h2{
+    height: auto;
+    flex-direction: column;
+    min-height: calc(100vh - 100px);
     
 }
 
+
+body, html{
+    margin: 0px;
+}
+
+
+p{
+    font-size: large;
+    font-style:oblique;
+
+}
+
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vw;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+   
+
+.aboutus{
+    margin-top: 100px;
+    height: 100%;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.imagem{
+    height: 415px ;
+    width: 630px;
+}
+hr{
+   border:20px black solid;
+   width: 100vw;
+   margin:0px
+}
