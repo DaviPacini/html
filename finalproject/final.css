@@ -1,0 +1,51 @@
+header {
+    position: static;
+    background-color: rgb(153, 0, 255);
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -20px;
+    height: 100px;
+}
+
+nav {
+
+    position: absolute;
+    top: 25px;
+    margin-left: 120px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    margin-top: -30px;
+    margin-left: -450px;
+}
+
+main{
+    background-color: rgb(196, 108, 255);
+    width: 100%;
+    
+}
+h2{
+    
+}
+
